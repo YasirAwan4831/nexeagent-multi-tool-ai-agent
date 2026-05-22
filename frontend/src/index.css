@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", system-ui, sans-serif;
+  --color-nexe-50: #ecfeff;
+  --color-nexe-100: #cffafe;
+  --color-nexe-200: #a5f3fc;
+  --color-nexe-300: #67e8f9;
+  --color-nexe-400: #22d3ee;
+  --color-nexe-500: #06b6d4;
+  --color-nexe-600: #0891b2;
+  --color-nexe-700: #0e7490;
+  --color-nexe-800: #155e75;
+  --color-nexe-900: #164e63;
+  --color-surface: #0f1419;
+  --color-surface-light: #1a2332;
+  --color-card: #151d2b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-surface);
+  color: #e2e8f0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.light body,
+.light {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #22d3ee, #818cf8, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass {
+  background: rgba(21, 29, 43, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.light .glass {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(148, 163, 184, 0.2);
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.4; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+.loading-dot {
+  animation: pulse-dot 1.2s ease-in-out infinite;
+}
+
+.loading-dot:nth-child(2) { animation-delay: 0.2s; }
+.loading-dot:nth-child(3) { animation-delay: 0.4s; }
