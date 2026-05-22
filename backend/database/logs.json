@@ -1,0 +1,400 @@
+[
+  {
+    "timestamp": "2026-05-20T17:49:01.797621+00:00",
+    "level": "info",
+    "message": "Chat processed session=default",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T17:56:20.319782+00:00",
+    "level": "info",
+    "message": "Note created: note_9cf06296d2b8",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T17:56:20.341015+00:00",
+    "level": "info",
+    "message": "Chat processed session=default",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T17:56:24.765904+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T17:56:31.455015+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T17:56:54.610731+00:00",
+    "level": "info",
+    "message": "Chat processed session=session_1779299790998",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T17:57:46.213534+00:00",
+    "level": "info",
+    "message": "Chat processed session=live_test",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:04.975391+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:19.337262+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash unavailable: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:19.555758+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash unavailable: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:20.219967+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash-latest unavailable: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:20.431448+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-pro unavailable: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:20.918199+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:32.748404+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash unavailable: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:33.327854+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash unavailable: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:33.566953+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash-latest unavailable: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:34.147473+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-pro unavailable: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:34.455848+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-2.0-flash unavailable: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 25.090172506s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 25\n}\n]",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:34.485846+00:00",
+    "level": "warning",
+    "message": "Using configured model without probe: gemini-1.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:34.589822+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:52.784606+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash unavailable: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:53.285860+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash unavailable: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:53.580186+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-flash-latest unavailable: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:54.083171+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-1.5-pro unavailable: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:54.422741+00:00",
+    "level": "warning",
+    "message": "Gemini model gemini-2.0-flash unavailable: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 5.102831653s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 5\n}\n]",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:54.469491+00:00",
+    "level": "warning",
+    "message": "Using configured model without probe: gemini-1.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:54.904721+00:00",
+    "level": "error",
+    "message": "Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:55.857157+00:00",
+    "level": "warning",
+    "message": "Summarize fallback: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:56.446531+00:00",
+    "level": "error",
+    "message": "Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:56.675580+00:00",
+    "level": "info",
+    "message": "Chat processed session=default",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:57:59.684822+00:00",
+    "level": "info",
+    "message": "Email sent to socialmedia55664@gmail.com",
+    "context": {
+      "subject": "NEXEAGENT Test — Job Updates & Agent Confirmation"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T18:59:18.389426+00:00",
+    "level": "info",
+    "message": "Gemini model active: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:59:18.456470+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:59:33.033545+00:00",
+    "level": "info",
+    "message": "Gemini model active: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:59:40.317640+00:00",
+    "level": "error",
+    "message": "Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 19.208720202s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 19\n}\n]",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:59:40.857638+00:00",
+    "level": "info",
+    "message": "Chat processed session=default",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T18:59:43.985090+00:00",
+    "level": "info",
+    "message": "Email sent to socialmedia55664@gmail.com",
+    "context": {
+      "subject": "NEXEAGENT Test — Job Updates & Agent Confirmation"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T19:00:33.067531+00:00",
+    "level": "info",
+    "message": "Gemini model active: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:00:33.109517+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:00:56.213171+00:00",
+    "level": "info",
+    "message": "Gemini model configured: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:01:09.158175+00:00",
+    "level": "info",
+    "message": "Chat processed session=default",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:01:29.842622+00:00",
+    "level": "info",
+    "message": "Gemini model configured: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:01:29.911770+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:01:32.903345+00:00",
+    "level": "info",
+    "message": "Gemini model configured: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:01:32.936343+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:01:50.349219+00:00",
+    "level": "info",
+    "message": "Chat processed session=verify",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:03:51.359404+00:00",
+    "level": "info",
+    "message": "Note updated: note_9cf06296d2b8",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:04:04.582296+00:00",
+    "level": "info",
+    "message": "Note created: note_b22f3279edfe",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:04:07.269140+00:00",
+    "level": "info",
+    "message": "Note created: note_20674cce9ab4",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:04:07.853307+00:00",
+    "level": "info",
+    "message": "Note created: note_4df523ee71ab",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T19:04:15.455628+00:00",
+    "level": "info",
+    "message": "Chat processed session=session_1779303850004",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T20:22:23.089029+00:00",
+    "level": "info",
+    "message": "Gemini model configured: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T20:22:23.402163+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T20:22:46.152478+00:00",
+    "level": "info",
+    "message": "Note deleted: note_b22f3279edfe",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T20:22:49.700188+00:00",
+    "level": "info",
+    "message": "Note deleted: note_4df523ee71ab",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T20:24:40.152935+00:00",
+    "level": "info",
+    "message": "Email sent to myasirtech4831@gmail.com",
+    "context": {
+      "subject": "Massage For Checking Nexe - Agent System "
+    }
+  },
+  {
+    "timestamp": "2026-05-20T20:25:04.920649+00:00",
+    "level": "info",
+    "message": "Gemini model configured: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T20:25:05.111740+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T20:25:08.751513+00:00",
+    "level": "info",
+    "message": "Gemini model configured: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-20T20:25:08.839842+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-21T20:32:26.944902+00:00",
+    "level": "info",
+    "message": "Gemini model configured: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-21T20:32:27.103847+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-21T20:32:31.158999+00:00",
+    "level": "info",
+    "message": "Gemini model configured: gemini-2.5-flash",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-21T20:32:31.274769+00:00",
+    "level": "info",
+    "message": "Starting NEXEAGENT on 127.0.0.1:5000",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-05-21T20:37:01.847079+00:00",
+    "level": "info",
+    "message": "Email sent to yasirgraphic4831@gmail.com",
+    "context": {
+      "subject": "random Nexe-Agent AI Tusting  "
+    }
+  }
+]

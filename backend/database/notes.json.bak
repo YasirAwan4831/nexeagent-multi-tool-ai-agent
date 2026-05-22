@@ -1,0 +1,23 @@
+[
+  {
+    "id": "note_9cf06296d2b8",
+    "title": "Test",
+    "content": "Body",
+    "tags": [],
+    "type": "user",
+    "created_at": "2026-05-20T17:56:20.314768+00:00",
+    "updated_at": "2026-05-20T19:03:51.351413+00:00"
+  },
+  {
+    "id": "note_20674cce9ab4",
+    "title": "Director of Revenue Systems and AI Automation (Offshore)  @ Caul Group",
+    "content": "https://remotive.com/remote-jobs/artificial-intelligence/director-of-revenue-systems-and-ai-automation-offshore-2090878\n\n<p dir=\"ltr\" style=\"line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 12pt;\"><strong><span style=\"color: #000000; background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">This search is open exclusively to candidates based in Latin America. </span><span style=\"color: #000000; background-c",
+    "tags": [
+      "job",
+      "Artificial Intelligence"
+    ],
+    "type": "job",
+    "created_at": "2026-05-20T19:04:07.259379+00:00",
+    "updated_at": "2026-05-20T19:04:07.259395+00:00"
+  }
+]
